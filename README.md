@@ -34,6 +34,8 @@
 - `python -m venv venv`
 - `source venv/Scripts/activate`
 - `pip install django faker`
+- `.gitignore` 설정 : python , windows, macOS, django
+- `pip freeze >> requirements.txt`
 
 
 ## 프로젝트/앱 생성
