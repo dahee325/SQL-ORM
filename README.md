@@ -91,4 +91,13 @@ DATABASES = {
 
 ## 4-2. READ
 - `sqlite3/2.select.sql`파일 생성
-- django-lookup-filter : 
+- django-lookup-filter
+
+## 4-3. UPDATE
+- `sqlite3/3.update.sql`파일 생성
+
+## 4-4. DELETE
+- `sqlite3/4.delete.sql`파일 생성
+
+## 4-5. JOIN(select문의 연장선)
+- `sqlite3/5.join.sql`파일 생성
