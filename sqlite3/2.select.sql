@@ -17,7 +17,7 @@ ORDER BY year DESC; -- 역순으로 정렬
 SELECT * FROM movies_user
 WHERE age=31;
 
--- User.objects.filter(age__lt=20), lt(less then), ORM은 =만 사용가능
+-- User.objects.filter(age__lt=20) -- lt(less then), ORM은 =만 사용가능
 SELECT * FROM movies_user
 WHERE age<20;
 

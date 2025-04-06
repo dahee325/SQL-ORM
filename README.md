@@ -82,12 +82,13 @@ DATABASES = {
 
 
 # 4. DataBase 조작
-## 4-1. CREATE
-- `sqlite3/ 1.insert.sql`파일 생성 : 테이블에 내가 가진 데이터 삽입
 - `pip install django-extensions` 설치 -> shell기능 별로여서 `ipython`다시 설치
 - `sql_orm/settings.py`에 `django-extensions` 앱 등록
 - `python manage.py shell_plus` : ORM 사용
-- `pip install ipython` 설치 -> `python manage.py shell_plus`다시 실행
+- `pip install ipython` 설치 -> `python manage.py shell_plus`다시 실행 -> `orm`실행 -> `exit()`입력해서 나가기
+
+## 4-1. CREATE
+- `sqlite3/ 1.insert.sql`파일 생성 : 테이블에 내가 가진 데이터 삽입
 
 ## 4-2. READ
 - `sqlite3/2.select.sql`파일 생성
